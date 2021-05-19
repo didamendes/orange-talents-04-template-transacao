@@ -1,6 +1,7 @@
 package br.com.zup.transacao.event;
 
 import br.com.zup.transacao.event.model.EventoDeTransacao;
+import br.com.zup.transacao.event.repository.EventoTransacaoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
